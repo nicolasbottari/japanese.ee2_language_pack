@@ -1,0 +1,11 @@
+Japanese language pack for ExpressionEngine 2.x. This language pack is based on the Japanese language pack available for ExpressionEngine 1.x created by Matthew Romaine, with modifications based on new EE2 features and my own judgement (!).
+
+    NOTE: Although I have level 1 Japanese certification (the highest level of certification for the JLPT), I am considered fluent, but not native in Japanese. In addition to the hundreds of strings that needed to be translated or copied, there may be cases where the translation may not suit your needs. Feel free to modify the translation files to your needs.
+
+Updated and most recent version of the language pack are available at github.
+Installation
+
+1. Create a japanese folder in /system/expressionengine/languages
+2. Copy or unpack the files into the japanese folder
+3. In the control panel, go to "My Account" (accessible from the sidebar) and under "Localization settings", set "Select Language" to "Japanese".
+
