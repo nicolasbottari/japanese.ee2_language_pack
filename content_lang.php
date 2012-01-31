@@ -584,8 +584,8 @@ $lang = array(
 'file_upload' => 
 'ファイルのアップロード',
 
-'upload_dir_choose' => 
-'アップロードダイレクトリーを選択してください',
+'upload_dir_choose' => 'アップロードダイレクトリーを選択してください',
+'upload_to' => '%sへアップロードする',
 
 'emoticons' => 
 'スマイリー',

@@ -74,6 +74,12 @@ $lang = array(
 'upload_success' => 
 'アップロードは成功しました',
 
+'upload_edit' => 'リサイズ &amp; 回転',
+
+'upload_rename' => 'ファイルはすでに存在しています',
+
+'upload_rename_message' => 'このファイル名はすでに存在しています。新しいファイル名を選んでファイル名が変更されるか、ファイル名をこのままにし、存在しているファイルを上書きできます。',
+
 'no_upload_dirs' => 
 '正義したアップロードダイレクトリーがありません',
 
@@ -92,92 +98,84 @@ $lang = array(
 'delete_selected_files' => 
 '選択したファイルを削除する',
 
-'edit_modes' => 
-'編集モード',
+'rename_file'			=> 'ファイル名を変更する',
+'edit_file'				=> 'ファイルを編集する',
+'save_file'				=> 'ファイルを編集する',
+'file_metadata'			=> 'ファイルのメタデータ',
 
-'resize' => 
-'リサイズ',
+// Upload modal
+'use_file'				=> 'そのファイルを利用する',
+'browse_files'			=> 'ファイルのリストを見る',
+'image_tools'			=> '画像ツール',
+'no_change'				=> '変更なし',
 
-'crop' => 
-'切り取る',
+'edit_modes' => '編集モード',
+'resize' => 'リサイズ',
+'crop' => '切り取る',
+'constrain'				=> 'Constrain',
+'resize_width' => '幅',
+'resize_height' => '高さ',
+'crop_width' => '幅',
+'crop_height' => '高さ',
+'crop_x' => 'X',
+'crop_y' => 'Y',
+'rotate' => '回転',
+'rotate_90r' => '90&#176; 右',
+'rotate_90l' => '90&#176; 左',
+'rotate_180' => '180&#176',
+'rotate_flip_vert' => '上下反転',
+'rotate_flip_hor' => '左右反転',
+'maintain_ratio' => '比較を保持する',
+'width_needed' => '幅もしくは幅と高さを選択してください',
+'file_exists_replacement_error' => 'このファイルはすでに存在していますが、上書きするためにデータベースにはありません。',
+'resize_over_confirmation' => 'この画像のサイズより大きくリサイズする際、画像の質は低下する可能性があります。本当に実行してもいいですか？',
 
-'resize_width' => 
-'幅',
+'resize_type'			=> 'リサイズのタイプ',
+'crop_mode' => 'クロップ（切り取る）モード',
+'resize_mode' => 'リサイズモード',
+'rotate_mode' => '回転モード',
+'apply_changes' => '変更を適用する',
+'cancel_changes'		=> '変更をキャンセルする', 
+'exit_apply_changes' => 'このモードを終了する。変更を適用しますか？',
+'processing_image' => '処理中',
+'done' => '終了',
+'edit_image' => '画像を保存する',
+'save_image'			=> '画像を保存する',
+'image_edit_success' => '画像の編集は成功しました',
+'no_edit_selected' => '編集オペレーションは選択されていません',
+'uploading_file' => 'アップロード中',
+'apply_changes'			=> '変更を適用する',
 
-'resize_height' => 
-'高さ',
+'list'						=> 'リスト',
+'thumbnails'				=> 'サムネール',
+'pagination_count_text'     => 'ファイル %s 〜 %s （%sの中）を表示する',
+'pagination_filter_text'    => '%sとしてファイルを表示する',
+'pagination_page'			=> 'ページ',
+'all_categories'			=> '全てのカテゴリ',
+'total_dir_size'            => 'フォルダの総合サイズ：',
+'no_upload_dirs_available'	=> 'アップロードフォルダがありません',
 
-'crop_width' => 
-'幅',
+'save_crop' 			=> '切り取りを保存する',
+'cancel_crop'			=> '切り取りをキャンセルする',
+'batch_location'		=> '一括アップロードのフォルダ',
 
-'crop_height' => 
-'高さ',
+/* ...
+Lots of strings that I (or someone else) might translate later. 
+... */
 
-'crop_x' => 
-'X',
+'filter_by_directory'		=> 'フォルダでフィルター',
+'search_in'					=> '〇〇の中から検索：',
+'file_title'				=> 'ファイルのタイトル',
+'custom_fields'				=> 'カスタムのフィールド',
+'search_files'				=> 'ファイルを検索する',
+'dir_name'					=> 'アップロードフォルダ名',
 
-'crop_y' => 
-'Y',
+// Batch Page:
+'thumbnail'					=> 'サムネール',
+'caption'					=> 'カプション',
+'include'					=> '含む？',
 
-'rotate' => 
-'回転',
-
-'rotate_90r' => 
-'90&#176; 右',
-
-'rotate_90l' => 
-'90&#176; 左',
-
-'rotate_180' => 
-'180&#176',
-
-'rotate_flip_vert' => 
-'上下反転',
-
-'rotate_flip_hor' => 
-'左右反転',
-
-'maintain_ratio' => 
-'比較を保持する',
-
-'width_needed' => 
-'幅もしくは幅と高さを選択してください',
-
-'crop_mode' => 
-'クロップ（切り取る）モード',
-
-'resize_mode' => 
-'リサイズモード',
-
-'rotate_mode' => 
-'回転モード',
-
-'apply_changes' => 
-'変更を適用する',
-
-'exit_apply_changes' => 
-'このモードを終了する。変更を適用しますか？',
-
-'processing_image' => 
-'処理中',
-
-'done' => 
-'終了',
-
-'edit_image' => 
-'画像を保存する',
-
-'image_edit_success' => 
-'画像の編集は成功しました',
-
-'no_edit_selected' => 
-'編集オペレーションは選択されていません',
-
-'uploading_file' => 
-'アップロード中',
-
-'translate' => 
-'アップデート',
+'translate' => 'アップデート',
 
 ''=>''
 );

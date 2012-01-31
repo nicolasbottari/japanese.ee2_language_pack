@@ -11,17 +11,16 @@ $lang = array(
 'nav_publish' => 
 '制作',
 
-'nav_edit' => 
-'編集',
+'nav_edit' => '編集',
+'nav_edit_all'					=> 'All Channels',
 
-'nav_files' => 
-'ファイルマネジャー',
+'nav_files' => 'ファイル',
+	'nav_file_manager'				=> 'ファイルマネジャー',
+	'nav_batch_upload'				=> '一括アップロード',
+	'nav_sync_files'				=> 'ファイルの同期',
 
-'nav_files_short_desc' => 
-'ファイルをアップロード、編集、削除する',
-
-'nav_edit_short_desc' => 
-'エントリーを編集する',
+'nav_files_short_desc' => 'ファイルをアップロード、編集、削除する',
+'nav_edit_short_desc' => 'エントリーを編集する',
 
 'nav_design' => 
 'デザイン',
@@ -236,128 +235,55 @@ $lang = array(
 'nav_global_channel_preferences_short_desc' => 
 'チャネルのグローバル設定を管理する',
 
-'nav_admin_content' => 
-'コンテンツの管理',
+'nav_admin_content' => 'コンテンツの管理',
+	'nav_file_upload_preferences' => 'ファイルアップロードの設定',
+	'nav_file_upload_preferences_short_desc' => 'ファイルアップロードの設定を作成、編集、削除する',
+	'nav_file_watermark_preferences'		=> '透かし模様の設定',
+	'nav_file_upload_preferences_short_desc'	=> 'ファイルの透かし模様の設定を制作、編集、削除する',
+	'nav_file_manager_short_desc'		=> 'ファイルのアップロードの設定',
+	'nav_file_watermark_preferences_short_desc' => '透かし模様の設定',
+	'nav_default_ping_servers' => 'デフォールトのpingサーバー',
+	'nav_default_ping_servers_short_desc' => 'デフォールトのpingサーバーを作成、編集、削除する',
+	'nav_default_html_buttons' => 'デフォールトのHTMLボタン',
+	'nav_default_html_buttons_short_desc' => 'デフォールトのHTMLボタンを作成、編集、削除する',
+	
+'nav_security_and_privacy' => 'セキュリティーとプライバシー',
 
-'nav_file_upload_preferences' => 
-'ファイルアップロードの設定',
+'nav_admin_system' => 'システム管理',
+	'nav_general_configuration' => '一般設定',
+	'nav_general_configuration_short_desc' => '一般設定を管理する',
+	'nav_email_configuration' => 'Eメールの設定',
+	'nav_email_configuration_short_desc' => 'Eメールの設定を管理する',
+	'nav_localization_settings' => 'ローカライゼーションの設定',
+	'nav_localization_settings_short_desc' => 'ローカライゼーションの設定を管理する',
+	'nav_database_settings' => 'データベース設定',
+	'nav_database_settings_short_desc' => 'データベース設定を設定する',
+	'nav_output_debugging_preferences' => '出力とデバッグ',
+	'nav_output_debugging_preferences_short_desc' => '出力とデバッグを管理する',
+	'nav_security_session_preferences' => 'セキューリティーとセッション',
+	'nav_security_session_preferences_short_desc' => 'セキューリティーとセッションを管理する',
+	'nav_captcha_preferences' => 'CAPTCHAの設定',
+	'nav_captcha_preferences_short_desc' => 'CAPTCHAの設定を管理する',
+	'nav_throttling_configuration' => 'スロットル（絞込み）の設定',
+	'nav_throttling_configuration_short_desc' => 'スロットル（絞込み）の設定を管理する',
+	'nav_tracking_preferences' => 'トラッキングの設定',
+	'nav_tracking_preferences_short_desc' => 'トラッキングの設定を管理する',
+	'nav_cookie_settings' => 'クッキーの設定',
+	'nav_cookie_settings_short_desc' => 'クッキーの設定を管理する',
+	'nav_image_resizing_preferences' => '画像のサイズ変更の設定',
+	'nav_image_resizing_preferences_short_desc' => '画像のサイズ変更の設定を管理する',
+	'nav_emoticon_preferences' => '絵文字の設定',
+	'nav_emoticon_preferences_short_desc' => '絵文字の設定を管理する',
+	'nav_word_censoring' => '禁止の語彙',
+	'nav_word_censoring_short_desc' => '禁止の語彙を管理する',
+	'nav_search_log_configuration' => '検索ログの設定',
+	'nav_search_log_configuration_short_desc' => '検索ログの設定を管理する',
 
-'nav_file_upload_preferences_short_desc' => 
-'ファイルアップロードの設定を作成、編集、削除する',
+'nav_tools' => 'ツール',
+'nav_tools_communicate' => 'コミュニケート',
+'nav_tools_communicate_short_desc' => 'メールを送信する',
 
-'nav_default_ping_servers' => 
-'デフォールトのpingサーバー',
-
-'nav_default_ping_servers_short_desc' => 
-'デフォールトのpingサーバーを作成、編集、削除する',
-
-'nav_default_html_buttons' => 
-'デフォールトのHTMLボタン',
-
-'nav_default_html_buttons_short_desc' => 
-'デフォールトのHTMLボタンを作成、編集、削除する',
-
-'nav_security_and_privacy' => 
-'セキュリティーとプライバシー',
-
-'nav_admin_system' => 
-'システム管理',
-
-'nav_general_configuration' => 
-'一般設定',
-
-'nav_general_configuration_short_desc' => 
-'一般設定を管理する',
-
-'nav_email_configuration' => 
-'Eメールの設定',
-
-'nav_email_configuration_short_desc' => 
-'Eメールの設定を管理する',
-
-'nav_localization_settings' => 
-'ローカライゼーションの設定',
-
-'nav_localization_settings_short_desc' => 
-'ローカライゼーションの設定を管理する',
-
-'nav_database_settings' => 
-'データベース設定',
-
-'nav_database_settings_short_desc' => 
-'データベース設定を設定する',
-
-'nav_output_debugging_preferences' => 
-'出力とデバッグ',
-
-'nav_output_debugging_preferences_short_desc' => 
-'出力とデバッグを管理する',
-
-'nav_security_session_preferences' => 
-'セキューリティーとセッション',
-
-'nav_security_session_preferences_short_desc' => 
-'セキューリティーとセッションを管理する',
-
-'nav_captcha_preferences' => 
-'CAPTCHAの設定',
-
-'nav_captcha_preferences_short_desc' => 
-'CAPTCHAの設定を管理する',
-
-'nav_throttling_configuration' => 
-'スロットル（絞込み）の設定',
-
-'nav_throttling_configuration_short_desc' => 
-'スロットル（絞込み）の設定を管理する',
-
-'nav_tracking_preferences' => 
-'トラッキングの設定',
-
-'nav_tracking_preferences_short_desc' => 
-'トラッキングの設定を管理する',
-
-'nav_cookie_settings' => 
-'クッキーの設定',
-
-'nav_cookie_settings_short_desc' => 
-'クッキーの設定を管理する',
-
-'nav_image_resizing_preferences' => 
-'画像のサイズ変更の設定',
-
-'nav_image_resizing_preferences_short_desc' => 
-'画像のサイズ変更の設定を管理する',
-
-'nav_emoticon_preferences' => 
-'絵文字の設定',
-
-'nav_emoticon_preferences_short_desc' => 
-'絵文字の設定を管理する',
-
-'nav_word_censoring' => 
-'禁止の語彙',
-
-'nav_word_censoring_short_desc' => 
-'禁止の語彙を管理する',
-
-'nav_search_log_configuration' => 
-'検索ログの設定',
-
-'nav_search_log_configuration_short_desc' => 
-'検索ログの設定を管理する',
-
-'nav_tools' => 
-'ツール',
-
-'nav_tools_communicate' => 
-'コミュニケート',
-
-'nav_tools_communicate_short_desc' => 
-'メールを送信する',
-
-'nav_tools_utilities' => 
-'ユーティリティー',
+'nav_tools_utilities' => 'ユーティリティー',
 
 'nav_translation_tool' => 
 '翻訳ユーティリティー',
